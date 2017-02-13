@@ -3446,7 +3446,8 @@ namespace EASEncoder.Models
             new SAMEMessageOriginator("EAS", "Emergency Alert System Participant"),
             new SAMEMessageOriginator("CIV", "Civil Authority"),
             new SAMEMessageOriginator("WXR", "National Weather Service"),
-            new SAMEMessageOriginator("PEP", "Primary Entry Point System")
+            new SAMEMessageOriginator("PEP", "Primary Entry Point System"),
+            new SAMEMessageOriginator("EAN", "Emergency Action Notification Network"),
         };
 
         public static List<SAMEMessageAlertCode> AlertCodes = new List<SAMEMessageAlertCode>
@@ -3501,6 +3502,10 @@ namespace EASEncoder.Models
             new SAMEMessageAlertCode("TRA", "Tropical Storm Watch"),
             new SAMEMessageAlertCode("TSW", "Tsunami Warning"),
             new SAMEMessageAlertCode("TSA", "Tsunami Watch"),
+            new SAMEMessageAlertCode("TXB", "Transmitter Backup On"),
+            new SAMEMessageAlertCode("TXF", "Transmitter Carrier Off"),
+            new SAMEMessageAlertCode("TXO", "Transmitter Carrier On"),
+            new SAMEMessageAlertCode("TXP", "Transmitter Primary On"),
             new SAMEMessageAlertCode("VOW", "Volcano Warning"),
             new SAMEMessageAlertCode("WSW", "Winter Storm Warning"),
             new SAMEMessageAlertCode("WSA", "Winter Storm Watch")
